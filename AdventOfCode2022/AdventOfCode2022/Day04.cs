@@ -5,17 +5,17 @@ namespace AdventOfCode2022;
 public static class Day04
 {
     private static readonly List<string> Pairs = FileReader.GetData("/day04/in.txt");
-    public static int FullyOverlap => Pairs.Count(x => GetList(x).Item1.Intersect(GetList(x).Item2).Count() == SmallestList(x));
+    public static int FullyOverlap => Pairs.Count(x => GetLists(x).Item1.Intersect(GetLists(x).Item2).Count() == SmallestList(x));
 
-    public static int PartialOverlap => Pairs.Count(x => GetList(x).Item1.Intersect(GetList(x).Item2).Any());
+    public static int PartialOverlap => Pairs.Count(x => GetLists(x).Item1.Intersect(GetLists(x).Item2).Any());
 
     private static int SmallestList(string pair)
     {
-        var (ls, ls2) = GetList(pair);
+        var (ls, ls2) = GetLists(pair);
        return ls.Count < ls2.Count ? ls.Count : ls2.Count;
     }
 
-    private static (List<int>, List<int>) GetList(string pair)
+    private static (List<int>, List<int>) GetLists(string pair)
     {
         var sp = pair.Split(",");
         var elf = (int.Parse(sp[0].Split("-")[0]), int.Parse(sp[0].Split("-")[1]));
