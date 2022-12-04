@@ -6,7 +6,7 @@ public static class Day02
 {
 	private static readonly List<char> Opponent = new() {'A','B','C'};
 	private static readonly List<char> Me = new() { 'X', 'Y', 'Z' };
-	private static readonly List<string> Rounds = FileReader.GetData("/day02/in.txt");
+	private static readonly List<string> Rounds = FileReader.GetData("/day02/input");
 	private static readonly Dictionary<char, char> Wins = new()
 	{
 		{'X', 'C'},

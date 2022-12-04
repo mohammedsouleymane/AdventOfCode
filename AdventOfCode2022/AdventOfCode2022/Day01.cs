@@ -6,7 +6,7 @@ public static class Day01
 {
 	private static IEnumerable<int> Calories()
 	{
-		var numbers = FileReader.GetData("/day01/input.txt").Select(x => x == "" ? 0 : int.Parse(x)).ToList();
+		var numbers = FileReader.GetData("/day01/input").Select(x => x == "" ? 0 : int.Parse(x)).ToList();
 		var calories = new List<int>();
 
 

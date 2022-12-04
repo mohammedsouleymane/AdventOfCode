@@ -4,7 +4,7 @@ namespace AdventOfCode2022;
 
 public static class Day03
 {
-	private static readonly List<string> Rucksacks = FileReader.GetData("/day03/in.txt");
+	private static readonly List<string> Rucksacks = FileReader.GetData("/day03/input");
 	public static int SumOfDuplicates => CalSum(DuplicatedItems());
 	public static int SumPrioritiesOfBadgeItems => CalSum(BadgeItems());
 

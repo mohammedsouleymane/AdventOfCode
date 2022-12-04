@@ -4,7 +4,7 @@ namespace AdventOfCode2022;
 
 public static class Day04
 {
-    private static readonly List<string> Pairs = FileReader.GetData("/day04/in.txt");
+    private static readonly List<string> Pairs = FileReader.GetData("/day04/input");
     public static int FullyOverlap => Pairs.Count(x => GetLists(x).Item1.Intersect(GetLists(x).Item2).Count() == SmallestList(x));
 
     public static int PartialOverlap => Pairs.Count(x => GetLists(x).Item1.Intersect(GetLists(x).Item2).Any());
