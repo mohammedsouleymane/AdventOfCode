@@ -7,3 +7,5 @@ Console.WriteLine(Day02.PartOne());
 Console.WriteLine(Day02.PartTwo());
 Console.WriteLine(Day03.SumOfDuplicates);
 Console.WriteLine(Day03.SumPrioritiesOfBadgeItems);
+Console.WriteLine(Day04.FullyOverlap);
+Console.WriteLine(Day04.PartialOverlap);
