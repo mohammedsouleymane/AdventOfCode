@@ -8,7 +8,7 @@ public static class Util
 		return File.ReadAllLines(path).ToList();
 	}
 
-	public static string ToStr(this List<string> list)
+	public static string ToStr<T>(this IEnumerable<T> list)
 	{
 		return string.Join("", list);
 	}
