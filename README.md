@@ -21,4 +21,10 @@
 
   6.[Tuning Trouble](./AdventOfCode2022/AdventOfCode2022/input/day06/puzzle.md#puzzle)
   - [Solution](./AdventOfCode2022/AdventOfCode2022/Day06.cs#solution)
+ 
+  7.[No Space Left On Device](./AdventOfCode2022/AdventOfCode2022/input/day07/puzzle.md#puzzle)
+  - [Solution](./AdventOfCode2022/AdventOfCode2022/Day07.cs#solution)
+
+  8.[Tuning Trouble](./AdventOfCode2022/AdventOfCode2022/input/day08/puzzle.md#puzzle)
+  - [Solution](./AdventOfCode2022/AdventOfCode2022/Day08.cs#solution)
 </details>
