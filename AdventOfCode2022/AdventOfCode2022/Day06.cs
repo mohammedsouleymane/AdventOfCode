@@ -1,8 +1,8 @@
 ﻿namespace AdventOfCode2022;
 
-public class Day06
+public static class Day06
 {
-    private static string DatastreamBuffers = Util.ReadFile("/day06/input").First();
+    private static readonly string DatastreamBuffers = Util.ReadFile("/day06/input").First();
 
     public static readonly int StartOfPacketMarker = DatastreamBuffers.Select((_, i) => i)
         .First(x => DatastreamBuffers[x..(x + 4)].Distinct().Count() == 4) + 4;
