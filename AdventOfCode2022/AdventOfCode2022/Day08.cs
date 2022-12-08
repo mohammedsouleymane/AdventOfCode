@@ -2,12 +2,12 @@
 
 public static class Day08
 {
-    private static List<string> input = Util.ReadFile("/day08/input");
-    public static (int visbleTrees, int highestscenic) result = VisibleInteriors();
+    private static readonly List<string> Input = Util.ReadFile("/day08/input");
+    public static (int VisbleTrees, int Highestscenic) Result = VisibleInteriors();
 
     private static (int, int ) VisibleInteriors()
     {
-        var matrix = input.ToMatrix();
+        var matrix = Input.ToMatrix();
         var visibleTreesFromPosition = new List<int>();
         var visble = 0;
         for (var i = 1; i < matrix.GetLength(0) - 1; i++)

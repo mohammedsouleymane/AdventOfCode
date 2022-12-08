@@ -30,5 +30,5 @@ Console.WriteLine(Day07.SumOfTotalSizeMin100000);
 Console.WriteLine(Day07.SpaceToFreeUp);
 
 Console.WriteLine("--------08---------");
-Console.WriteLine(Day08.result.visbleTrees);
-Console.WriteLine(Day08.result.highestscenic);
+Console.WriteLine(Day08.Result.VisbleTrees);
+Console.WriteLine(Day08.Result.Highestscenic);
