@@ -2,9 +2,9 @@
 
 public static class Day09
 {
-    private static readonly List<string> Moves = Util.ReadFile("/day09/input:wq");
+    private static readonly List<string> Moves = Util.ReadFile("/day09/input");
     public static readonly int WhereTailsHasBeen = Move().Count();
-  
+
 
     private static IEnumerable<(int, int)> Move((int, int) head = default)
     {
@@ -14,7 +14,7 @@ public static class Day09
             for (var i = 0; i < int.Parse(move.Split(" ")[1]); i++)
             {
                 var old = coordinates.Count == 0 ? (0, 0) : coordinates.Last();
-                (head,var tail) = Update(head, move);
+                (head, var tail) = Update(head, move);
                 if (IsNeighbor(head, old)) continue;
                 coordinates.Add(tail);
             }
