@@ -32,3 +32,6 @@ Console.WriteLine(Day07.SpaceToFreeUp);
 Console.WriteLine("--------08---------");
 Console.WriteLine(Day08.Result.VisbleTrees);
 Console.WriteLine(Day08.Result.Highestscenic);
+
+Console.WriteLine("--------09---------");
+Console.WriteLine(Day09.WhereTailsHasBeen);
