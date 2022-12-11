@@ -46,9 +46,9 @@ public static class Day10
     {
         var sufPrefix = cycles % 40 == 0  ?"\n" : " ";
         if(cycles + 1 %40 >= x && cycles + 1 < x%40 + 3)
-            Console.Write($"{sufPrefix}#");
+            Console.Write($"{sufPrefix}\u2588");
         else
-            Console.Write($".{sufPrefix}");
+            Console.Write($" {sufPrefix}");
     }
    
 }

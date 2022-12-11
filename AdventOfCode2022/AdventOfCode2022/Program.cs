@@ -35,3 +35,10 @@ Console.WriteLine(Day08.Result.Highestscenic);
 
 Console.WriteLine("--------09---------");
 Console.WriteLine(Day09.WhereTailsHasBeen);
+//Console.WriteLine(Day09.NineTails);
+
+Console.WriteLine("--------10---------");
+Console.Write(Day10.SumOfSixSignalStrengths+"\n");
+
+Console.WriteLine("--------11---------");
+Console.WriteLine(Day11.LevelOfMonkeyBusiness());
