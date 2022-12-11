@@ -27,4 +27,13 @@
 
   8.[Tuning Trouble](./AdventOfCode2022/AdventOfCode2022/input/day08/puzzle.md#puzzle)
   - [Solution](./AdventOfCode2022/AdventOfCode2022/Day08.cs#solution)
+
+  9.[Rope Bridge](./AdventOfCode2022/AdventOfCode2022/input/day09/puzzle.md#puzzle)
+  - [Solution](./AdventOfCode2022/AdventOfCode2022/Day09.cs#solution)
+
+  10.[Cathode-Ray Tube](./AdventOfCode2022/AdventOfCode2022/input/day10/puzzle.md#puzzle)
+  - [Solution](./AdventOfCode2022/AdventOfCode2022/Day10.cs#solution)
+
+  11.[Monkey in the Middle](./AdventOfCode2022/AdventOfCode2022/input/day11/puzzle.md#puzzle)
+  - [Solution](./AdventOfCode2022/AdventOfCode2022/Day11.cs#solution)
 </details>
