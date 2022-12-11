@@ -42,3 +42,4 @@ Console.Write(Day10.SumOfSixSignalStrengths+"\n");
 
 Console.WriteLine("--------11---------");
 Console.WriteLine(Day11.LevelOfMonkeyBusiness());
+Console.WriteLine(Day11.LevelOfMonkeyBusiness(10000));
