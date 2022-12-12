@@ -36,4 +36,9 @@
 
   11.[Monkey in the Middle](./AdventOfCode2022/AdventOfCode2022/input/day11/puzzle.md#puzzle)
   - [Solution](./AdventOfCode2022/AdventOfCode2022/Day11.cs#solution)
+
+  12.[Monkey in the Middle](./AdventOfCode2022/AdventOfCode2022/input/day12/puzzle.md#puzzle)
+  - [Solution](./AdventOfCode2022/AdventOfCode2022/Day12.cs#solution)
+
+
 </details>

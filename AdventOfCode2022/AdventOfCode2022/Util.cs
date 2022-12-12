@@ -38,4 +38,17 @@ public static class Util
 
 		return matrix;
 	}
+	
+	public static char[,] ToCharMatrix(this IEnumerable<string> list)
+	{
+		var matrix = new char[list.First().Length, list.Count()];
+		for (var i = 0; i < matrix.GetLength(0); i++)
+		{
+			for (var j = 0; j < matrix.GetLength(1); j++)
+			{
+				matrix[i, j] = list.ToArray()[i][j];
+			}
+		}
+		return matrix;
+	}
 }
