@@ -44,6 +44,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Z.Expressions.Eval": {
+              "target": "Package",
+              "version": "[4.0.91, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

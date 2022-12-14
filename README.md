@@ -40,5 +40,8 @@
   12.[Hill Climbing Algorithm](./AdventOfCode2022/AdventOfCode2022/input/day12/puzzle.md#puzzle)
   - [Solution](./AdventOfCode2022/AdventOfCode2022/Day12.cs#solution)
 
+  13.[Distress Signal](./AdventOfCode2022/AdventOfCode2022/input/day13/puzzle.md#puzzle)
+  - [Solution](./AdventOfCode2022/AdventOfCode2022/Day13.cs#solution)
+
 
 </details>

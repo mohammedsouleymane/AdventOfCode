@@ -62,7 +62,7 @@ public static class Day11
     {
         long number;
         try { number = int.Parse(operation.Split(" ")[5]); }
-        catch (Exception e) { number = old; }
+        catch (Exception) { number = old; }
         return operation.Contains('+') ? old + number : old * number;
     }
 }

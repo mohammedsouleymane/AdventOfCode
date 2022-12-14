@@ -12,4 +12,8 @@
     <Folder Include="input\day06" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Z.Expressions.Eval" Version="4.0.91" />
+  </ItemGroup>
+
 </Project>
