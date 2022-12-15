@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v6.0": {
       "AdventOfCode2022/1.0.0": {
         "dependencies": {
+          "GeeGee.Dijkstra": "1.0.0",
           "Z.Expressions.Eval": "4.0.91"
         },
         "runtime": {
           "AdventOfCode2022.dll": {}
+        }
+      },
+      "GeeGee.Dijkstra/1.0.0": {
+        "runtime": {
+          "lib/net6.0/Dijkstra.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -460,6 +469,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "GeeGee.Dijkstra/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fVQ3VyqjuXzh8ekKDbG2FRhXYXf4PehjDuGkh3bnMJgQwXosDUH3ZBcGn88OcsLb2ZxpMqf58pd/dWY3i18QSg==",
+      "path": "geegee.dijkstra/1.0.0",
+      "hashPath": "geegee.dijkstra.1.0.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",

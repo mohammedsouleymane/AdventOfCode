@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "GeeGee.Dijkstra/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Dijkstra.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Dijkstra.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -808,6 +817,18 @@
     }
   },
   "libraries": {
+    "GeeGee.Dijkstra/1.0.0": {
+      "sha512": "fVQ3VyqjuXzh8ekKDbG2FRhXYXf4PehjDuGkh3bnMJgQwXosDUH3ZBcGn88OcsLb2ZxpMqf58pd/dWY3i18QSg==",
+      "type": "package",
+      "path": "geegee.dijkstra/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "geegee.dijkstra.1.0.0.nupkg.sha512",
+        "geegee.dijkstra.nuspec",
+        "lib/net6.0/Dijkstra.dll"
+      ]
+    },
     "Microsoft.CSharp/4.5.0": {
       "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
@@ -3349,6 +3370,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "GeeGee.Dijkstra >= 1.0.0",
       "Z.Expressions.Eval >= 4.0.91"
     ]
   },
@@ -3397,6 +3419,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "GeeGee.Dijkstra": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Z.Expressions.Eval": {
             "target": "Package",
             "version": "[4.0.91, )"

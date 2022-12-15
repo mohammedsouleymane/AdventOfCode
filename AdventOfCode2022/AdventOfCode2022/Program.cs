@@ -44,9 +44,9 @@ using AdventOfCode2022;
 // Console.WriteLine(Day11.LevelOfMonkeyBusiness());
 // Console.WriteLine(Day11.LevelOfMonkeyBusiness(10000));
 
-// Console.WriteLine("--------12---------");
-// Console.WriteLine(Day12.ShortestFromPossibleStarts);
-// Console.WriteLine(Day12.ShortestFromS);
+ Console.WriteLine("--------12---------");
+Console.WriteLine(Day12.ShortestFromPossibleStarts);
+ Console.WriteLine(Day12.ShortestFromS);
 Console.WriteLine("--------13---------");
 Console.WriteLine(Day13.GetOrderedPairs());
 Console.WriteLine(Day13.DecoderKey());

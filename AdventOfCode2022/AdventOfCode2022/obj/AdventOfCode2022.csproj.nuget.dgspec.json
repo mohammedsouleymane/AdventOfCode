@@ -45,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "GeeGee.Dijkstra": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Z.Expressions.Eval": {
               "target": "Package",
               "version": "[4.0.91, )"

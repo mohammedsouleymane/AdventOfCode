@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="GeeGee.Dijkstra" Version="1.0.0" />
     <PackageReference Include="Z.Expressions.Eval" Version="4.0.91" />
   </ItemGroup>
 
