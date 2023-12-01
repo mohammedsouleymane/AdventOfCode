@@ -1,15 +1,20 @@
 # AdventOfCode
-<details>
 
+<details>
+  
   <summary>2023</summary>
- 
-  ### Puzzle
+  
+  ### Puzzles
+  
   1.[Trebuchet](./AdventOfCode2022/Aoc2023/input/day01/puzzle.md#puzzle) 
   - [Solution](./AdventOfCode2022/Aoc2023/Day01.cs#solution)
+    
+</details>
 
+<details>
   <summary>2022</summary>
 
-  ### Puzzle
+  ### Puzzles
 
   1.[Calorie Counting](./AdventOfCode2022/AdventOfCode2022/input/day01/puzzle.md#puzzle)
   - [Solution](./AdventOfCode2022/AdventOfCode2022/Day01.cs#solution)
