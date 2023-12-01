@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using Dijkstra;
 
-namespace AdventOfCode2022;
+namespace Aoc2022;
 
 public static class Day12
 {

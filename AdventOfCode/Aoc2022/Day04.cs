@@ -1,6 +1,6 @@
 ﻿using System.Threading;
 
-namespace AdventOfCode2022;
+namespace Aoc2022;
 
 public static class Day04
 {

@@ -1,7 +1,7 @@
 ﻿using System.Text.RegularExpressions;
 using System.Threading.Channels;
 
-namespace AdventOfCode2022;
+namespace Aoc2022;
 
 public static class Day07
 {

@@ -1,6 +1,6 @@
 ﻿
 using System.Threading.Channels;
-using AdventOfCode2022;
+using Aoc2022;
 // Console.WriteLine("--------01---------");
 // Console.WriteLine(Day01.Max);
 // Console.WriteLine(Day01.Top3);

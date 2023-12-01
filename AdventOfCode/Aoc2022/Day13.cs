@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Nodes;
 
-namespace AdventOfCode2022;
+namespace Aoc2022;
 
 // inspired by https://github.com/encse/adventofcode/blob/master/2022/Day13/Solution.cs
 public static class Day13
