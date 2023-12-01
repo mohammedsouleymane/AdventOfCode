@@ -1,4 +1,4 @@
-﻿namespace Aoc2023;
+﻿namespace Utilities;
 
 public static class Util
 {
