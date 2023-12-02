@@ -7,6 +7,9 @@
   ### Puzzle
   1.[Trebuchet](./AdventOfCode/Aoc2023/input/day01/puzzle.md#puzzle) 
   - [Solution](./AdventOfCode/Aoc2023/Day01.cs#solution)
+
+  2.[Cube Conundrum](./AdventOfCode/Aoc2023/input/day02/puzzle.md#puzzle) 
+  - [Solution](./AdventOfCode/Aoc2023/Day02.cs#solution)
     
 </details>
 
