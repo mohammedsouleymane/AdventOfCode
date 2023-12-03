@@ -10,6 +10,9 @@
 
   2.[Cube Conundrum](./AdventOfCode/Aoc2023/input/day02/puzzle.md#puzzle) 
   - [Solution](./AdventOfCode/Aoc2023/Day02.cs#solution)
+
+  2.[Gear Ratios](./AdventOfCode/Aoc2023/input/day03/puzzle.md#puzzle) 
+  - [Solution](./AdventOfCode/Aoc2023/Day03.cs#solution)
     
 </details>
 
