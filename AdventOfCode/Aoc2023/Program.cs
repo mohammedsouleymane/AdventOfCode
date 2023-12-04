@@ -12,4 +12,7 @@ Console.WriteLine($"\t 2: {Day02.Two}");
 Console.WriteLine("--- Day 3: Gear Ratios ---");
 Console.WriteLine($"\t 1: {Day03.One()}");
 Console.WriteLine($"\t 2: {Day03.Two}");
+Console.WriteLine("--- Day 4: Scratchcards ---");
+Console.WriteLine($"\t 1: {Day04.Points}");
+Console.WriteLine($"\t 2: {Day04.Copies()}");
 
