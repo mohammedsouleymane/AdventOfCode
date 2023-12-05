@@ -82,8 +82,7 @@ public static class Day05
         var newNums = new List<(long start, long end)>();
         while (numbers.Count > 0)
         {
-            var (start, end) = numbers.First();
-            numbers.RemoveAt(0);
+            var (start, end) = numbers.Pop();
 
             foreach (var category in sourceCategory.Skip(1))
             {

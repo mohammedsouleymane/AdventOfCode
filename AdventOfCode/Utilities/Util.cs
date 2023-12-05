@@ -2,6 +2,12 @@
 
 public static class Util
 {
+	public static T Pop<T>(this List<T> lst)
+	{
+		var first = lst.First();
+		lst.RemoveAt(0);
+		return first;
+	}
 	public static string ReplaceAt(this string str, int index, int length, string replace)
 	{
 		return str.Remove(index, Math.Min(length, str.Length - index))
