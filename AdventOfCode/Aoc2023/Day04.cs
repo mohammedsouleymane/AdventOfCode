@@ -42,6 +42,6 @@ public static class Day04
             }
         }
 
-        return dictionary.Sum(kv => kv.Value);
+        return dictionary.Values.Sum();
     }
 }

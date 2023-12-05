@@ -16,3 +16,6 @@ Console.WriteLine("--- Day 4: Scratchcards ---");
 Console.WriteLine($"\t 1: {Day04.Points}");
 Console.WriteLine($"\t 2: {Day04.Copies()}");
 
+Console.WriteLine("--- Day 5: If You Give A Seed A Fertilizer ---");
+Console.WriteLine($"\t 1: {Day05.One()}");
+Console.WriteLine($"\t 2: {Day05.Two()}");

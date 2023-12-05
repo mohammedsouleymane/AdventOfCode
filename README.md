@@ -16,6 +16,9 @@
 
   4.[Scratchcards](./AdventOfCode/Aoc2023/input/day04/puzzle.md#puzzle) 
   - [Solution](./AdventOfCode/Aoc2023/Day04.cs#solution)
+
+  5.[If You Give A Seed A Fertilizer](./AdventOfCode/Aoc2023/input/day05/puzzle.md#puzzle) 
+  - [Solution](./AdventOfCode/Aoc2023/Day05.cs#solution)
     
 </details>
 
