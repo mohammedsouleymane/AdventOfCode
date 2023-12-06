@@ -4,7 +4,7 @@ public static class Day06
 {
     private static readonly List<string> Inputs = Util.ReadFile("/day06/input");
 
-    // can also use quadratic equation = x^2 - time*x - record
+    // can also use quadratic equation = -x^2 - time*x - record
     private static long HowManyWays(long record,  long time)
     {
         var firstTimeToBeatRecord = 0;
