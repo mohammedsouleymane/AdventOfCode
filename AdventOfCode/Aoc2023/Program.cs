@@ -19,3 +19,7 @@ Console.WriteLine($"\t 2: {Day04.Copies()}");
 Console.WriteLine("--- Day 5: If You Give A Seed A Fertilizer ---");
 Console.WriteLine($"\t 1: {Day05.One()}");
 Console.WriteLine($"\t 2: {Day05.Two()}");
+
+Console.WriteLine("--- Day 6: Wait For It ---");
+Console.WriteLine($"\t 1: {Day06.One()}");
+Console.WriteLine($"\t 2: {Day06.Two()}");

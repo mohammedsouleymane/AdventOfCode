@@ -19,6 +19,9 @@
 
   5.[If You Give A Seed A Fertilizer](./AdventOfCode/Aoc2023/input/day05/puzzle.md#puzzle) 
   - [Solution](./AdventOfCode/Aoc2023/Day05.cs#solution)
+
+  6.[Wait For It](./AdventOfCode/Aoc2023/input/day06/puzzle.md#puzzle) 
+  - [Solution](./AdventOfCode/Aoc2023/Day06.cs#solution)
     
 </details>
 
