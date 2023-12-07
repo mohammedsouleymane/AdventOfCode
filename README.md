@@ -22,6 +22,9 @@
 
   6.[Wait For It](./AdventOfCode/Aoc2023/input/day06/puzzle.md#puzzle) 
   - [Solution](./AdventOfCode/Aoc2023/Day06.cs#solution)
+
+  7.[Camel Cards](./AdventOfCode/Aoc2023/input/day07/puzzle.md#puzzle) 
+  - [Solution](./AdventOfCode/Aoc2023/Day07.cs#solution)
     
 </details>
 

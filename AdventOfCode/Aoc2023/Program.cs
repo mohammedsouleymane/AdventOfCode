@@ -23,3 +23,7 @@ Console.WriteLine($"\t 2: {Day05.Two()}");
 Console.WriteLine("--- Day 6: Wait For It ---");
 Console.WriteLine($"\t 1: {Day06.One()}");
 Console.WriteLine($"\t 2: {Day06.Two()}");
+
+Console.WriteLine("--- Day 7: Camel Cards ---");
+Console.WriteLine($"\t 1: {Day07.One}");
+Console.WriteLine($"\t 2: {Day07.Two}");
