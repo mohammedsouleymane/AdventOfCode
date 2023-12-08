@@ -27,3 +27,7 @@ Console.WriteLine($"\t 2: {Day06.Two()}");
 Console.WriteLine("--- Day 7: Camel Cards ---");
 Console.WriteLine($"\t 1: {Day07.One}");
 Console.WriteLine($"\t 2: {Day07.Two}");
+
+Console.WriteLine("--- Day 8: Haunted Wasteland ---");
+Console.WriteLine($"\t 1: {Day08.One()}");
+Console.WriteLine($"\t 2: {Day08.Two()}");

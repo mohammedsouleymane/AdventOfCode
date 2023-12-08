@@ -25,6 +25,9 @@
 
   7.[Camel Cards](./AdventOfCode/Aoc2023/input/day07/puzzle.md#puzzle) 
   - [Solution](./AdventOfCode/Aoc2023/Day07.cs#solution)
+
+  8.[Haunted Wasteland](./AdventOfCode/Aoc2023/input/day08/puzzle.md#puzzle) 
+  - [Solution](./AdventOfCode/Aoc2023/Day08.cs#solution)
     
 </details>
 
