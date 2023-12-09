@@ -28,6 +28,9 @@
 
   8.[Haunted Wasteland](./AdventOfCode/Aoc2023/input/day08/puzzle.md#puzzle) 
   - [Solution](./AdventOfCode/Aoc2023/Day08.cs#solution)
+
+  9.[Mirage Maintenance](./AdventOfCode/Aoc2023/input/day09/puzzle.md#puzzle) 
+  - [Solution](./AdventOfCode/Aoc2023/Day09.cs#solution)
     
 </details>
 

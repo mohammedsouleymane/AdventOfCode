@@ -11,4 +11,8 @@
       <ProjectReference Include="..\Utilities\Utilities.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="input\day09\" />
+    </ItemGroup>
+
 </Project>

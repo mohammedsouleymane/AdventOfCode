@@ -31,3 +31,9 @@ Console.WriteLine($"\t 2: {Day07.Two}");
 Console.WriteLine("--- Day 8: Haunted Wasteland ---");
 Console.WriteLine($"\t 1: {Day08.One()}");
 Console.WriteLine($"\t 2: {Day08.Two()}");
+
+Console.WriteLine("--- Day 9: Mirage Maintenance ---");
+Console.WriteLine($"\t 1: {Day09.One}");
+Console.WriteLine($"\t 2: {Day09.Two}");
+
+
