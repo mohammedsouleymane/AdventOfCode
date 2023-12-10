@@ -32,7 +32,7 @@
   9.[Mirage Maintenance](./AdventOfCode/Aoc2023/input/day09/puzzle.md#puzzle) 
   - [Solution](./AdventOfCode/Aoc2023/Day09.cs#solution)
 
-  10.[Mirage Maintenance](./AdventOfCode/Aoc2023/input/day10/puzzle.md#puzzle) 
+  10.[Pipe Maze](./AdventOfCode/Aoc2023/input/day10/puzzle.md#puzzle) 
   - [Solution](./AdventOfCode/Aoc2023/Day10.cs#solution)
 </details>
 
