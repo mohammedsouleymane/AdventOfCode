@@ -36,4 +36,6 @@ Console.WriteLine("--- Day 9: Mirage Maintenance ---");
 Console.WriteLine($"\t 1: {Day09.One}");
 Console.WriteLine($"\t 2: {Day09.Two}");
 
-
+Console.WriteLine("--- Day 10: Pipe Maze ---");
+Console.WriteLine($"\t 1: {Day10.One()}");
+//Console.WriteLine($"\t 2: {Day09.Two}");

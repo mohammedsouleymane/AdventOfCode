@@ -13,6 +13,7 @@
 
     <ItemGroup>
       <Folder Include="input\day09\" />
+      <Folder Include="input\day10\" />
     </ItemGroup>
 
 </Project>

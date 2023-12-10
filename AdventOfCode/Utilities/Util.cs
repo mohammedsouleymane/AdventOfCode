@@ -49,7 +49,11 @@ public static class Util
 
 		return matrix;
 	}
-	
+
+	public static T GetELementAt<T>(this T[,] matrix, (int x, int y) coordinate )
+	{
+		return matrix[coordinate.y, coordinate.x];
+	}
 	public static char[,] ToCharMatrix(this IEnumerable<string> list)
 	{
 		var matrix = new char[list.First().Length, list.Count()];
