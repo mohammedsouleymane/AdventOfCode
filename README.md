@@ -34,6 +34,9 @@
 
   10.[Pipe Maze](./AdventOfCode/Aoc2023/input/day10/puzzle.md#puzzle) 
   - [Solution](./AdventOfCode/Aoc2023/Day10.cs#solution)
+
+  11.[Cosmic Expansion](./AdventOfCode/Aoc2023/input/day11/puzzle.md#puzzle) 
+  - [Solution](./AdventOfCode/Aoc2023/Day11.cs#solution)
 </details>
 
 <details>

@@ -39,3 +39,6 @@ Console.WriteLine($"\t 2: {Day09.Two}");
 Console.WriteLine("--- Day 10: Pipe Maze ---");
 Console.WriteLine($"\t 1: {Day10.One()}");
 //Console.WriteLine($"\t 2: {Day09.Two}");
+Console.WriteLine("--- Day 11: Cosmic Expansion---");
+Console.WriteLine($"\t 1: {Day11.One}");
+Console.WriteLine($"\t 2: {Day11.Two}");
