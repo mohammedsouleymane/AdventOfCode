@@ -44,7 +44,7 @@ public class Day13
             if (z != 0)
                 sum += z * 100;
             else
-                sum += FindMirror( Enumerable.Range(0, line.First().Length).Select(i => line.Select(x => x[i]).ToStr()).ToList());
+                sum += FindMirror( Enumerable.Range(0, line.First().Length).Select(i => line.Select(x => x[i]).ToStr()).ToList()); // turning colums to rows
         }
         return sum;
     }
@@ -57,7 +57,7 @@ public class Day13
             if (z != 0)
                 sum += z * 100;
             else
-                sum += FindMirror( Enumerable.Range(0, line.First().Length).Select(i => line.Select(x => x[i]).ToStr()).ToList(),1);
+                sum += FindMirror( Enumerable.Range(0, line.First().Length).Select(i => line.Select(x => x[i]).ToStr()).ToList(),1); // turning colums to rows
         }
         return sum;
     }
