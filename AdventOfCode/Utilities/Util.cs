@@ -61,12 +61,31 @@ public static class Util
 		{
 			for (var j = 0; j < matrix.GetLength(1); j++)
 			{
-				matrix[i, j] = list.ToArray()[j][i];
+				matrix[i, j] = list.ToArray()[i][j];
 			}
 		}
 		return matrix;
 	}
-	
+    public static void Print<T>(this T[,] matrix )
+    {
+        for(var i = 0; i < matrix.GetLength(0); i++)
+        {
+            for(var j = 0; j < matrix.GetLength(1); j++)
+            {
+	            Console.Write($"{matrix[i, j]} ");
+            }
+
+            Console.WriteLine();
+        }
+        
+    }
+    public static bool Compare<T>(this T[,] firstArray, T[,] secondArray)
+    {
+	    return firstArray.Rank == secondArray.Rank &&
+	           Enumerable.Range(0, firstArray.Rank).All(dimension => firstArray.GetLength(dimension) == secondArray.GetLength(dimension)) &&
+	           firstArray.Cast<T>().SequenceEqual(secondArray.Cast<T>());
+    }
+
 	public static List<List<T>> SplitToChucks<T>(this List<T> source, T by)
 	{
 		var chunks = new List<List<T>>();

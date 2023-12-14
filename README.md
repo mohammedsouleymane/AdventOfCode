@@ -37,6 +37,14 @@
 
   11.[Cosmic Expansion](./AdventOfCode/Aoc2023/input/day11/puzzle.md#puzzle) 
   - [Solution](./AdventOfCode/Aoc2023/Day11.cs#solution)
+
+  13.[Point of Incidence](./AdventOfCode/Aoc2023/input/day13/puzzle.md#puzzle) 
+  - [Solution](./AdventOfCode/Aoc2023/Day13.cs#solution)
+
+  14.[Parabolic Reflector Dish](./AdventOfCode/Aoc2023/input/day14/puzzle.md#puzzle) 
+  - [Solution](./AdventOfCode/Aoc2023/Day14.cs#solution)
+
+
 </details>
 
 <details>
