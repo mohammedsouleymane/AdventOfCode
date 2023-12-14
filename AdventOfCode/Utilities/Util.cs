@@ -61,9 +61,29 @@ public static class Util
 		{
 			for (var j = 0; j < matrix.GetLength(1); j++)
 			{
-				matrix[i, j] = list.ToArray()[i][j];
+				matrix[i, j] = list.ToArray()[j][i];
 			}
 		}
 		return matrix;
+	}
+	
+	public static List<List<T>> SplitToChucks<T>(this List<T> source, T by)
+	{
+		var chunks = new List<List<T>>();
+		var chunk = new List<T>();
+		foreach (var t in source)
+		{
+			if (t.Equals(by))
+			{
+				chunks.Add(chunk);
+				chunk = new List<T>();
+			}
+			else
+			{
+				chunk.Add(t);
+			}
+		}
+		chunks.Add(chunk);
+		return chunks;
 	}
 }
