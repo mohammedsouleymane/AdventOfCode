@@ -44,6 +44,9 @@
   14.[Parabolic Reflector Dish](./AdventOfCode/Aoc2023/input/day14/puzzle.md#puzzle) 
   - [Solution](./AdventOfCode/Aoc2023/Day14.cs#solution)
 
+   15.[Lens Library](./AdventOfCode/Aoc2023/input/day15/puzzle.md#puzzle) 
+  - [Solution](./AdventOfCode/Aoc2023/Day15.cs#solution)
+
 
 </details>
 

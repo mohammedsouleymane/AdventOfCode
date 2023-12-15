@@ -43,10 +43,14 @@ using Aoc2023;
 // Console.WriteLine($"\t 1: {Day11.One}");
 // Console.WriteLine($"\t 2: {Day11.Two}");
 //
-Console.WriteLine("--- Day 13: Point of Incidence ---");
-Console.WriteLine($"\t 1: {Day13.One()}");
-Console.WriteLine($"\t 2: {Day13.Two()}");
+// Console.WriteLine("--- Day 13: Point of Incidence ---");
+// Console.WriteLine($"\t 1: {Day13.One()}");
+// Console.WriteLine($"\t 2: {Day13.Two()}");
+//
+// Console.WriteLine("--- Day 14: Parabolic Reflector Dish ---");
+// Console.WriteLine($"\t 1: {Day14.One()}");
+// Console.WriteLine($"\t 2: {Day14.Two()}");
 
-Console.WriteLine("--- Day 14: Parabolic Reflector Dish ---");
-Console.WriteLine($"\t 1: {Day14.One()}");
-Console.WriteLine($"\t 2: {Day14.Two()}");
+Console.WriteLine("--- Day 15: Lens Library ---");
+Console.WriteLine($"\t 1: {Day15.One}");
+Console.WriteLine($"\t 2: {Day15.Two()}");
