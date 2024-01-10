@@ -1,3 +1,5 @@
+input/
+
 # JetBrains Rider
 *.sln.iml
 *.idea

@@ -5,7 +5,7 @@ namespace Aoc2023;
 public class Day15
 {
     private static readonly string[] Lines = Util.ReadFile("/day15/input").ToStr().Split(",");
-
+    
     private static int Calculate(string s)
     {
         var sum = 0;

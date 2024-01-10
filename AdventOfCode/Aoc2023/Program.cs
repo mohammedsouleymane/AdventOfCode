@@ -51,6 +51,17 @@ using Aoc2023;
 // Console.WriteLine($"\t 1: {Day14.One()}");
 // Console.WriteLine($"\t 2: {Day14.Two()}");
 
-Console.WriteLine("--- Day 15: Lens Library ---");
-Console.WriteLine($"\t 1: {Day15.One}");
-Console.WriteLine($"\t 2: {Day15.Two()}");
+// Console.WriteLine("--- Day 15: Lens Library ---");
+// Console.WriteLine($"\t 1: {Day15.One}");
+// Console.WriteLine($"\t 2: {Day15.Two()}");
+
+// Console.WriteLine("--- Day 16: The Floor Will Be Lava ---");
+// Console.WriteLine($"\t 1: {Day16.One}");
+
+Console.WriteLine("--- Day 17: Clumsy Crucible ---");
+Console.WriteLine($"\t 1: {Day17.One()}");
+Console.WriteLine($"\t 2: {1}");
+
+// Console.WriteLine("--- Day 18: Lavaduct Lagoon ---");
+// Console.WriteLine($"\t 1: {Day18.One()}");
+// Console.WriteLine($"\t 2: {Day18.Two()}");

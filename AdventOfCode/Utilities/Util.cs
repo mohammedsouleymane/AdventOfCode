@@ -52,7 +52,7 @@ public static class Util
 
 	public static T GetELementAt<T>(this T[,] matrix, (int x, int y) coordinate )
 	{
-		return matrix[coordinate.y, coordinate.x];
+		return matrix[coordinate.x, coordinate.y];
 	}
 	public static char[,] ToCharMatrix(this IEnumerable<string> list)
 	{
