@@ -5,47 +5,33 @@
   <summary>2023</summary>
  
   ### Puzzle
-  1.[Trebuchet](./AdventOfCode/Aoc2023/input/day01/puzzle.md#puzzle) 
-  - [Solution](./AdventOfCode/Aoc2023/Day01.cs#solution)
+  1.[Trebuchet](./AdventOfCode/Aoc2023/Day01.cs#solution)
 
-  2.[Cube Conundrum](./AdventOfCode/Aoc2023/input/day02/puzzle.md#puzzle) 
-  - [Solution](./AdventOfCode/Aoc2023/Day02.cs#solution)
+  2.[Cube Conundrum](./AdventOfCode/Aoc2023/Day02.cs#solution)
 
-  3.[Gear Ratios](./AdventOfCode/Aoc2023/input/day03/puzzle.md#puzzle) 
-  - [Solution](./AdventOfCode/Aoc2023/Day03.cs#solution)
+  3.[Gear Ratios](./AdventOfCode/Aoc2023/Day03.cs#solution)
 
-  4.[Scratchcards](./AdventOfCode/Aoc2023/input/day04/puzzle.md#puzzle) 
-  - [Solution](./AdventOfCode/Aoc2023/Day04.cs#solution)
+  4.[Scratchcards](./AdventOfCode/Aoc2023/Day04.cs#solution)
 
-  5.[If You Give A Seed A Fertilizer](./AdventOfCode/Aoc2023/input/day05/puzzle.md#puzzle) 
-  - [Solution](./AdventOfCode/Aoc2023/Day05.cs#solution)
+  5.[If You Give A Seed A Fertilizer](./AdventOfCode/Aoc2023/Day05.cs#solution)
 
-  6.[Wait For It](./AdventOfCode/Aoc2023/input/day06/puzzle.md#puzzle) 
-  - [Solution](./AdventOfCode/Aoc2023/Day06.cs#solution)
+  6.[Wait For It](./AdventOfCode/Aoc2023/Day06.cs#solution)
 
-  7.[Camel Cards](./AdventOfCode/Aoc2023/input/day07/puzzle.md#puzzle) 
-  - [Solution](./AdventOfCode/Aoc2023/Day07.cs#solution)
+  7.[Camel Cards](./AdventOfCode/Aoc2023/Day07.cs#solution)
 
-  8.[Haunted Wasteland](./AdventOfCode/Aoc2023/input/day08/puzzle.md#puzzle) 
-  - [Solution](./AdventOfCode/Aoc2023/Day08.cs#solution)
+  8.[Haunted Wasteland](./AdventOfCode/Aoc2023/Day08.cs#solution)
 
-  9.[Mirage Maintenance](./AdventOfCode/Aoc2023/input/day09/puzzle.md#puzzle) 
-  - [Solution](./AdventOfCode/Aoc2023/Day09.cs#solution)
+  9.[Mirage Maintenance](./AdventOfCode/Aoc2023/Day09.cs#solution)
 
-  10.[Pipe Maze](./AdventOfCode/Aoc2023/input/day10/puzzle.md#puzzle) 
-  - [Solution](./AdventOfCode/Aoc2023/Day10.cs#solution)
+  10.[Pipe Maze](./AdventOfCode/Aoc2023/Day10.cs#solution)
 
-  11.[Cosmic Expansion](./AdventOfCode/Aoc2023/input/day11/puzzle.md#puzzle) 
-  - [Solution](./AdventOfCode/Aoc2023/Day11.cs#solution)
+  11.[Cosmic Expansion](./AdventOfCode/Aoc2023/Day11.cs#solution)
 
-  13.[Point of Incidence](./AdventOfCode/Aoc2023/input/day13/puzzle.md#puzzle) 
-  - [Solution](./AdventOfCode/Aoc2023/Day13.cs#solution)
+  13.[Point of Incidence](./AdventOfCode/Aoc2023/Day13.cs#solution)
 
-  14.[Parabolic Reflector Dish](./AdventOfCode/Aoc2023/input/day14/puzzle.md#puzzle) 
-  - [Solution](./AdventOfCode/Aoc2023/Day14.cs#solution)
+  14.[Parabolic Reflector Dish](./AdventOfCode/Aoc2023/Day14.cs#solution)
 
-   15.[Lens Library](./AdventOfCode/Aoc2023/input/day15/puzzle.md#puzzle) 
-  - [Solution](./AdventOfCode/Aoc2023/Day15.cs#solution)
+  15.[Lens Library](./AdventOfCode/Aoc2023/Day015.cs#solution)
 
 
 </details>
