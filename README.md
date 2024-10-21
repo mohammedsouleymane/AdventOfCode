@@ -1,10 +1,9 @@
 # AdventOfCode
-
 <details>
   
   <summary>2023</summary>
  
-  ### Puzzle
+  ### Solution
   1.[Trebuchet](./AdventOfCode/Aoc2023/Day01.cs#solution)
 
   2.[Cube Conundrum](./AdventOfCode/Aoc2023/Day02.cs#solution)
@@ -39,7 +38,7 @@
 <details>
   <summary>2022</summary>
 
-  ### Puzzles
+  ### Solution
 
   1.[Calorie Counting](./AdventOfCode/Aoc2022/Day01.cs#solution)
 
@@ -66,5 +65,14 @@
   12.[Hill Climbing Algorithm](./AdventOfCode/Aoc2022/Day12.cs#solution)
   
   13.[Distress Signal](./AdventOfCode/Aoc2022/Day13.cs#solution)
+
+</details>
+
+<details>
+  
+  <summary>2015</summary>
+ 
+  ### Puzzle
+  2.[I Was Told There Would Be No Math](./AdventOfCode/Aoc2015/Day02.cs#solution)
 
 </details>
