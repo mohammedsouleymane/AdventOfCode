@@ -75,4 +75,6 @@
   ### Puzzle
   2.[I Was Told There Would Be No Math](./AdventOfCode/Aoc2015/Day02.cs#solution)
 
+  3.[Perfectly Spherical Houses in a Vacuum](./AdventOfCode/Aoc2015/Day03.cs#solution)
+
 </details>
