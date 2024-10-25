@@ -77,7 +77,9 @@
 
   3.[Perfectly Spherical Houses in a Vacuum](./AdventOfCode/Aoc2015/Day03.cs#solution)
 
-  4.[The Ideal Stocking Stuffer](./AdventOfCode/Aoc2015/Day03.cs#solution)
+  4.[The Ideal Stocking Stuffer](./AdventOfCode/Aoc2015/Day04.cs#solution)
+
+  5.[Doesn't He Have Intern-Elves For This?](./AdventOfCode/Aoc2015/Day05.cs#solution)
   
 
 </details>
