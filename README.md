@@ -80,6 +80,8 @@
   4.[The Ideal Stocking Stuffer](./AdventOfCode/Aoc2015/Day04.cs#solution)
 
   5.[Doesn't He Have Intern-Elves For This?](./AdventOfCode/Aoc2015/Day05.cs#solution)
+
+  6.[Probably a Fire Hazard](./AdventOfCode/Aoc2015/Day06.cs#solution)
   
 
 </details>
