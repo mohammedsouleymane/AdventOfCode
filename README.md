@@ -82,6 +82,12 @@
   5.[Doesn't He Have Intern-Elves For This?](./AdventOfCode/Aoc2015/Day05.cs#solution)
 
   6.[Probably a Fire Hazard](./AdventOfCode/Aoc2015/Day06.cs#solution)
+
+  7.[Some Assembly Required](./AdventOfCode/Aoc2015/Day07.cs#solution)
+  
+  8.[Matchsticks](./AdventOfCode/Aoc2015/Day08.cs#solution)
+  
+  9.[All in a Single Night](./AdventOfCode/Aoc2015/Day09.cs#solution)
   
 
 </details>
