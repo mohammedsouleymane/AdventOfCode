@@ -88,6 +88,8 @@
   8.[Matchsticks](./AdventOfCode/Aoc2015/Day08.cs#solution)
   
   9.[All in a Single Night](./AdventOfCode/Aoc2015/Day09.cs#solution)
+
+  10.[Elves Look, Elves Say](./AdventOfCode/Aoc2015/Day10.cs#solution)
   
 
 </details>
