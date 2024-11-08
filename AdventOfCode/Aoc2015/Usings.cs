@@ -1,6 +1,1 @@
-namespace Aoc2015;
-
-public class Usings
-{
-    
-}
+global using Utilities;
