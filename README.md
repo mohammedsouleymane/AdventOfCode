@@ -2,7 +2,7 @@
 
 <details>
   
-  <summary>2023</summary>
+  <summary>2024</summary>
  
   ### Solution
   1.[Historian Hysteria](./AdventOfCode/Aoc2024/Day01.cs#solution)
