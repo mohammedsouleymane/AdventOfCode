@@ -6,6 +6,8 @@
  
   ### Solution
   1.[Historian Hysteria](./AdventOfCode/Aoc2024/Day01.cs#solution)
+
+  2.[Red-Nosed Reports](./AdventOfCode/Aoc2024/Day02.cs#solution)
   
 </details>
 
