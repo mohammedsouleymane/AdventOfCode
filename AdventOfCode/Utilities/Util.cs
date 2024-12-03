@@ -105,4 +105,14 @@ public static class Util
 		chunks.Add(chunk);
 		return chunks;
 	}
+	
+	public static bool DigitsOnly(string s)
+	{
+		foreach (var c in s)
+		{
+			if (c is < '0' or > '9')
+				return false;
+		}
+		return true;
+	}
 }

@@ -8,6 +8,8 @@
   1.[Historian Hysteria](./AdventOfCode/Aoc2024/Day01.cs#solution)
 
   2.[Red-Nosed Reports](./AdventOfCode/Aoc2024/Day02.cs#solution)
+
+  3.[Mull It Over](./AdventOfCode/Aoc2024/Day03.cs#solution)
   
 </details>
 
