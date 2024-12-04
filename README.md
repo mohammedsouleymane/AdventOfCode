@@ -10,6 +10,8 @@
   2.[Red-Nosed Reports](./AdventOfCode/Aoc2024/Day02.cs#solution)
 
   3.[Mull It Over](./AdventOfCode/Aoc2024/Day03.cs#solution)
+
+  4.[Ceres Search](./AdventOfCode/Aoc2024/Day01.cs#solution)
   
 </details>
 

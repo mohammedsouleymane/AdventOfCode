@@ -54,9 +54,15 @@ public static class Util
 	{
 		return matrix[coordinate.x, coordinate.y];
 	}
+	
+	public static bool InBounds<T>(this T[,] matrix, (int x, int y) coordinate )
+	{
+		return matrix.GetLength(0) > coordinate.x && coordinate.x >= 0
+		                                          && matrix.GetLength(1) > coordinate.y && coordinate.y >= 0;
+	}
 	public static char[,] ToCharMatrix(this IEnumerable<string> list)
 	{
-		var matrix = new char[list.First().Length, list.Count()];
+		var matrix = new char[ list.Count(), list.First().Length];
 		for (var i = 0; i < matrix.GetLength(0); i++)
 		{
 			for (var j = 0; j < matrix.GetLength(1); j++)
