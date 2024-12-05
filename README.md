@@ -12,6 +12,10 @@
   3.[Mull It Over](./AdventOfCode/Aoc2024/Day03.cs#solution)
 
   4.[Ceres Search](./AdventOfCode/Aoc2024/Day04.cs#solution)
+
+  5.[Print Queue](./AdventOfCode/Aoc2024/Day05.cs#solution)
+
+
   
 </details>
 
