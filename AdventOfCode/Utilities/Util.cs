@@ -60,6 +60,8 @@ public static class Util
 		return matrix.GetLength(0) > coordinate.x && coordinate.x >= 0
 		                                          && matrix.GetLength(1) > coordinate.y && coordinate.y >= 0;
 	}
+	
+	
 	public static char[,] ToCharMatrix(this IEnumerable<string> list)
 	{
 		var matrix = new char[ list.Count(), list.First().Length];
@@ -91,7 +93,10 @@ public static class Util
 	           Enumerable.Range(0, firstArray.Rank).All(dimension => firstArray.GetLength(dimension) == secondArray.GetLength(dimension)) &&
 	           firstArray.Cast<T>().SequenceEqual(secondArray.Cast<T>());
     }
-
+    public static void Swap<T>(this T[] arr, long i, long j)
+    {
+	    (arr[i], arr[j]) = (arr[j], arr[i]);
+    }
 	public static List<List<T>> SplitToChucks<T>(this List<T> source, T by)
 	{
 		var chunks = new List<List<T>>();
