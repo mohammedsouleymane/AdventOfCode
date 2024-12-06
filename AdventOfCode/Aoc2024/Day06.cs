@@ -45,19 +45,17 @@ public static class Day06
     
     public static int Calculate(bool two = false)
     {
-       
+        var positions = BruteForce().Select(p => (p.Item1, p.Item2)).Distinct();
         if (!two) return BruteForce().Select(p => (p.Item1, p.Item2)).Distinct().Count();
         var newObstructions = new HashSet<(int, int)>();
-        for (var i = 0; i < Map.GetLength(0); i++)
+
+        foreach (var (i, j ) in positions)
         {
-            for (var j = 0; j < Map.GetLength(1); j++)
-            {
-                if(Map[i , j ] != '.') continue;
-                    Map[i,j] = '#';
-                    if (BruteForce().Count == 0)
-                        newObstructions.Add((i,j));
-                    Map[i,j] = '.';
-            }
+            if(Map[i , j ] != '.') continue;
+            Map[i,j] = '#';
+            if (BruteForce().Count == 0)
+                newObstructions.Add((i,j));
+            Map[i,j] = '.';
         }
         return newObstructions.Count;
     }
