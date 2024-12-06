@@ -15,6 +15,8 @@
 
   5.[Print Queue](./AdventOfCode/Aoc2024/Day05.cs#solution)
 
+  6.[Guard Gallivant](./AdventOfCode/Aoc2024/Day06.cs#solution)
+
 
   
 </details>
