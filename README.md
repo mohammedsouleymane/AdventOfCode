@@ -17,6 +17,8 @@
 
   6.[Guard Gallivant](./AdventOfCode/Aoc2024/Day06.cs#solution)
 
+  7.[Bridge Repair](./AdventOfCode/Aoc2024/Day7.cs#solution)
+
 
   
 </details>
