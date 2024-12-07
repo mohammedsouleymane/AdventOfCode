@@ -26,9 +26,11 @@ public static class Day07
             return false;
         if (numbers.Count == 0)
             return current == answer;
-        return 
-             Valid(numbers.Skip(1).ToList(),answer, long.Parse($"{current}{numbers.First()}")) || //part two
-            Valid(numbers.Skip(1).ToList(), answer, current + numbers.First()) ||
-               Valid(numbers.Skip(1).ToList(), answer, current == 0 ? numbers.First() : current * numbers.First());
+        var first = numbers.First();
+        var rest = numbers.Skip(1).ToList();
+        return
+            Valid(rest, answer, current + first) ||
+            Valid(rest, answer, current == 0 ? first : current * first) ||
+            Valid(rest, answer, long.Parse($"{current}{first}")); //part two
     }
 }
