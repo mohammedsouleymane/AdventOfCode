@@ -13,14 +13,14 @@ public static class Day07
             var split = equation.Split(": ");
             var answer = long.Parse(split[0]);
             var numbers = split[1].Split(" ").Select(long.Parse).ToList();
-            if (Valid(numbers, answer))
+            if (Valid(numbers.Skip(1).ToList(), answer, numbers.First()))
                 sum += answer;
         }
 
         return sum;
     }
 
-    private static bool Valid(List<long> numbers, long answer, long current = 0)
+    private static bool Valid(List<long> numbers, long answer, long current)
     {
         if (current > answer)
             return false;
@@ -30,7 +30,7 @@ public static class Day07
         var rest = numbers.Skip(1).ToList();
         return
             Valid(rest, answer, current + first) ||
-            Valid(rest, answer, current == 0 ? first : current * first) ||
+            Valid(rest, answer, current * first) ||
             Valid(rest, answer, long.Parse($"{current}{first}")); //part two
     }
 }
