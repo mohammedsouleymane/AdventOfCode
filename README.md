@@ -19,6 +19,8 @@
 
   7.[Bridge Repair](./AdventOfCode/Aoc2024/Day07.cs#solution)
 
+  8.[Resonant Collinearity](./AdventOfCode/Aoc2024/Day08.cs#solution)
+
 
   
 </details>
