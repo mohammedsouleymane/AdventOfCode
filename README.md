@@ -21,6 +21,8 @@
 
   8.[Resonant Collinearity](./AdventOfCode/Aoc2024/Day08.cs#solution)
 
+  9.[Disk Fragmenter](./AdventOfCode/Aoc2024/Day09.cs#solution)
+
 
   
 </details>
