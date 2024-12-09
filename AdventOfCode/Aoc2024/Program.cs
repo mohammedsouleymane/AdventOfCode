@@ -17,3 +17,5 @@ using Aoc2024;
 //Console.WriteLine(Day07.Calibrate());
 Console.WriteLine(Day08.AntiNodes());
 Console.WriteLine(Day08.AntiNodes(true));
+Console.WriteLine(Day09.Calc());
+Console.WriteLine(Day09.Calc2());
