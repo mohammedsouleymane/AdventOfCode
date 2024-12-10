@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Threading.Channels;
 using Aoc2024;
 
 //Console.WriteLine(Day01.Difference);
@@ -15,7 +16,9 @@ using Aoc2024;
 //Console.WriteLine(Day06.Calculate());
 //Console.WriteLine(Day06.Calculate(true));
 //Console.WriteLine(Day07.Calibrate());
-Console.WriteLine(Day08.AntiNodes());
-Console.WriteLine(Day08.AntiNodes(true));
-Console.WriteLine(Day09.Calc());
-Console.WriteLine(Day09.Calc2());
+//Console.WriteLine(Day08.AntiNodes());
+//Console.WriteLine(Day08.AntiNodes(true));
+//Console.WriteLine(Day09.Calc());
+//Console.WriteLine(Day09.Calc2());
+Console.WriteLine(Day10.TrailHeads());
+Console.WriteLine(Day10.AltTrailHeads());
