@@ -33,10 +33,10 @@ public static class  Day10
         return neighbors;
     }
     
-    public static int TrailHeads()
+    public static int TrailHeads()//part one: trailhead = all the different starting and ending positions
     {
         var queue = StartingPositions();
-        var startEnd = new HashSet<(int, int,int,int)>();// keeping starting and position to make sure the trail its a different trail
+        var startEnd = new HashSet<(int, int,int,int)>();
         
         while (queue.Count > 0)
         {
@@ -44,10 +44,9 @@ public static class  Day10
             var current = int.Parse(Map[i, j].ToString());
             foreach (var (i1,j1) in Neighbor(i,j))
             {
-                if(Map[i1, j1] == '.') continue;
                 var next =  int.Parse(Map[i1, j1].ToString());
                 if (current + 1 == next && next == 9)
-                    startEnd.Add((i1, j1,x,y));
+                    startEnd.Add((i1, j1,x,y)); 
                 else if (current + 1 == next)
                     queue.Enqueue((i1, j1, x, y));
             }
@@ -55,7 +54,7 @@ public static class  Day10
         return startEnd.Count;
     }
     
-    public static int AltTrailHeads()
+    public static int AltTrailHeads()// part two: trailhead = all the unique paths
     {
         var queue = StartingPositions();
         var sum = 0;
@@ -65,7 +64,6 @@ public static class  Day10
             var current = int.Parse(Map[i, j].ToString());
             foreach (var (i1,j1) in Neighbor(i,j))
             {
-                if(Map[i1, j1] == '.') continue;
                 var next =  int.Parse(Map[i1, j1].ToString());
                 if (current + 1 == next && next == 9)
                     sum++;
