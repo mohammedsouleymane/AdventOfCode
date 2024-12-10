@@ -20,5 +20,5 @@ using Aoc2024;
 //Console.WriteLine(Day08.AntiNodes(true));
 //Console.WriteLine(Day09.Calc());
 //Console.WriteLine(Day09.Calc2());
-Console.WriteLine(Day10.TrailHeads());
-Console.WriteLine(Day10.AltTrailHeads());
+Console.WriteLine(Day10.Sum);
+Console.WriteLine(Day10.Ratings);

@@ -33,11 +33,9 @@ public static class  Day10
         return neighbors;
     }
     
-    public static int TrailHeads()//part one: trailhead = all the different starting and ending positions
+    public static int TrailHeads(ICollection<(int,int,int,int)> collection)
     {
         var queue = StartingPositions();
-        var startEnd = new HashSet<(int, int,int,int)>();
-        
         while (queue.Count > 0)
         {
             var (i, j,x,y) = queue.Dequeue(); // x and y are your starting positions 
@@ -46,31 +44,15 @@ public static class  Day10
             {
                 var next =  int.Parse(Map[i1, j1].ToString());
                 if (current + 1 == next && next == 9)
-                    startEnd.Add((i1, j1,x,y)); 
+                    collection.Add((i1, j1,x,y)); 
                 else if (current + 1 == next)
                     queue.Enqueue((i1, j1, x, y));
             }
         }
-        return startEnd.Count;
+        return collection.Count;
     }
+
+    public static int Sum => TrailHeads(new HashSet<(int, int, int, int)>()); //part one: trailhead = all the different combination of starting and ending positions
+    public static int Ratings => TrailHeads(new List<(int, int, int, int)>()); //part two: trailhead = all the different paths so list just accumulates
     
-    public static int AltTrailHeads()// part two: trailhead = all the unique paths
-    {
-        var queue = StartingPositions();
-        var sum = 0;
-        while (queue.Count > 0)
-        {
-            var (i, j,x,y) = queue.Dequeue(); //ignore x and y 
-            var current = int.Parse(Map[i, j].ToString());
-            foreach (var (i1,j1) in Neighbor(i,j))
-            {
-                var next =  int.Parse(Map[i1, j1].ToString());
-                if (current + 1 == next && next == 9)
-                    sum++;
-                else if (current + 1 == next)
-                    queue.Enqueue((i1, j1, x, y));
-            }
-        }
-        return sum;
-    }
 }
