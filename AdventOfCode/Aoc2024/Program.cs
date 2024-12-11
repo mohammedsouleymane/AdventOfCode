@@ -22,3 +22,5 @@ using Aoc2024;
 //Console.WriteLine(Day09.Calc2());
 Console.WriteLine(Day10.Sum);
 Console.WriteLine(Day10.Ratings);
+Console.WriteLine(Day11.AmountOfStonesAfter());
+Console.WriteLine(Day11.AmountOfStonesAfter(75));

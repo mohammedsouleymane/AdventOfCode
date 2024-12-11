@@ -32,8 +32,8 @@ public static class  Day10
             neighbors.Add((i,j - 1));
         return neighbors;
     }
-    
-    public static int TrailHeads(ICollection<(int,int,int,int)> collection)
+
+    private static int TrailHeads(ICollection<(int,int,int,int)> collection)
     {
         var queue = StartingPositions();
         while (queue.Count > 0)
