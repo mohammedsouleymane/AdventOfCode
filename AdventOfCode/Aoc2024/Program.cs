@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using System.Threading.Channels;
 using Aoc2024;
 
 //Console.WriteLine(Day01.Difference);
@@ -20,7 +19,9 @@ using Aoc2024;
 //Console.WriteLine(Day08.AntiNodes(true));
 //Console.WriteLine(Day09.Calc());
 //Console.WriteLine(Day09.Calc2());
-Console.WriteLine(Day10.Sum);
-Console.WriteLine(Day10.Ratings);
-Console.WriteLine(Day11.AmountOfStonesAfter());
-Console.WriteLine(Day11.AmountOfStonesAfter(75));
+// Console.WriteLine(Day10.Sum);
+// Console.WriteLine(Day10.Ratings);
+// Console.WriteLine(Day11.AmountOfStonesAfter());
+// Console.WriteLine(Day11.AmountOfStonesAfter(75));
+Console.WriteLine(Day12.PriceOfAllRegion());
+Console.WriteLine(Day12.PriceOfAllRegion(true));

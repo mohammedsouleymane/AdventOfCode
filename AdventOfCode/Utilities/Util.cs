@@ -93,6 +93,15 @@ public static class Util
 	           Enumerable.Range(0, firstArray.Rank).All(dimension => firstArray.GetLength(dimension) == secondArray.GetLength(dimension)) &&
 	           firstArray.Cast<T>().SequenceEqual(secondArray.Cast<T>());
     }
+
+    public static (int,int) Subtract(this (int, int) tuple, (int, int) toSub)
+    {
+	    return (tuple.Item1 - toSub.Item1, tuple.Item2 - toSub.Item2);
+    }
+    public static (double,double) Subtract(this (double, double) tuple, (double, double) toSub)
+    {
+	    return (tuple.Item1 - toSub.Item1, tuple.Item2 - toSub.Item2);
+    }
     public static void Swap<T>(this T[] arr, long i, long j)
     {
 	    (arr[i], arr[j]) = (arr[j], arr[i]);
