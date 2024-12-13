@@ -29,6 +29,8 @@
 
   12.[Garden Groups](./AdventOfCode/Aoc2024/Day12.cs#solution)
 
+  13.[Claw Contraption](./AdventOfCode/Aoc2024/Day13.cs#solution)
+
 
   
 </details>
