@@ -3,7 +3,7 @@ namespace Aoc2024;
 public static class Day13
 {
     private static readonly List<string[]> Machines = Util.ReadFile("/day13/input").Chunk(4).ToList();
-    
+    //using the substitution method
     private static long SolveEquation(List<long[]> numbers, long[] results, long max)
     {
         var rx = results[0];
