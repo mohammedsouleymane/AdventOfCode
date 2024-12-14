@@ -98,6 +98,10 @@ public static class Util
     {
 	    return (tuple.Item1 - toSub.Item1, tuple.Item2 - toSub.Item2);
     }
+    public static (int,int) Add(this (int, int) tuple, (int, int) toSub)
+    {
+	    return (tuple.Item1 + toSub.Item1, tuple.Item2 + toSub.Item2);
+    }
     public static (double,double) Subtract(this (double, double) tuple, (double, double) toSub)
     {
 	    return (tuple.Item1 - toSub.Item1, tuple.Item2 - toSub.Item2);

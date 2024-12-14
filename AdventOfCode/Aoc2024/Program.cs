@@ -27,3 +27,5 @@ using Aoc2024;
 // Console.WriteLine(Day12.PriceOfAllRegion(true));
 Console.WriteLine(Day13.RunMachines(0));
 Console.WriteLine(Day13.RunMachines(10000000000000, true));
+Console.WriteLine(Day14.ParseRobot());
+Console.WriteLine(Day14.ParseRobot(true));
