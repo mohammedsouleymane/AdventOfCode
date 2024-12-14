@@ -31,6 +31,8 @@
 
   13.[Claw Contraption](./AdventOfCode/Aoc2024/Day13.cs#solution)
 
+  14.[Restroom Redoubt](./AdventOfCode/Aoc2024/Day14.cs#solution)
+
 
   
 </details>
