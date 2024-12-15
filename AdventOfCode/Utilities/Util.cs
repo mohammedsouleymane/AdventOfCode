@@ -54,7 +54,19 @@ public static class Util
 	{
 		return matrix[coordinate.x, coordinate.y];
 	}
-	
+
+	public static (int i, int j) Find<T>(this T[,] matrix, T element)
+	{
+		for (var i = 0; i < matrix.GetLength(0); i++)
+		{
+			for (var j = 0; j < matrix.GetLength(1); j++)
+			{
+				if (matrix[i, j]!.Equals(element))
+					return (i, j);
+			}
+		}
+		return (-1, -1);
+	}
 	public static bool InBounds<T>(this T[,] matrix, (int x, int y) coordinate )
 	{
 		return matrix.GetLength(0) > coordinate.x && coordinate.x >= 0
@@ -80,7 +92,7 @@ public static class Util
         {
             for(var j = 0; j < matrix.GetLength(1); j++)
             {
-	            Console.Write($"{matrix[i, j]} ");
+	            Console.Write($"{matrix[i, j]}");
             }
 
             Console.WriteLine();
