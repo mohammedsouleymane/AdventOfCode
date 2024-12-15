@@ -33,6 +33,8 @@
 
   14.[Restroom Redoubt](./AdventOfCode/Aoc2024/Day14.cs#solution)
 
+  15.[Warehouse Woes](./AdventOfCode/Aoc2024/Day15.cs#solution)
+
 
   
 </details>
