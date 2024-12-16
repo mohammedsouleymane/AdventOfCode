@@ -19,7 +19,7 @@ public static class Day12
         var starts = part == 1 ? new List<(int, int)>{_start} : PossibleStarts;
         foreach (var start in CollectionsMarshal.AsSpan(starts))
         {
-            var dijkstra = new Dijkstra<char>(Grid, start, _end, NeighborsMaxPlusOne);
+            var dijkstra = new Dijkstra.Dijkstra<char>(Grid, start, _end, NeighborsMaxPlusOne);
             var shortestPath = dijkstra.ShortestCost();
             if (shortestPath != 0)
                 shortestForAllStarts.Add(shortestPath);
