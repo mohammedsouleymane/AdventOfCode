@@ -35,6 +35,8 @@
 
   15.[Warehouse Woes](./AdventOfCode/Aoc2024/Day15.cs#solution)
 
+  16.[Reindeer Maze](./AdventOfCode/Aoc2024//Day16.cs#solution)
+
 
   
 </details>
