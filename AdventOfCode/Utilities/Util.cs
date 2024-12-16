@@ -54,7 +54,6 @@ public static class Util
 	{
 		return matrix[coordinate.x, coordinate.y];
 	}
-
 	public static (int i, int j) Find<T>(this T[,] matrix, T element)
 	{
 		for (var i = 0; i < matrix.GetLength(0); i++)
@@ -142,13 +141,6 @@ public static class Util
 		return chunks;
 	}
 	
-	public static bool DigitsOnly(string s)
-	{
-		foreach (var c in s)
-		{
-			if (c is < '0' or > '9')
-				return false;
-		}
-		return true;
-	}
+	public static bool DigitsOnly(this string s) => s.All(char.IsDigit);
+	
 }
