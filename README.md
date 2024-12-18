@@ -37,6 +37,10 @@
 
   16.[Reindeer Maze](./AdventOfCode/Aoc2024//Day16.cs#solution)
 
+  17.[Chronospatial Computer](./AdventOfCode/Aoc2024//Day17.cs#solution)
+
+  18.[RAM Run](./AdventOfCode/Aoc2024//Day18.cs#solution)
+
 
   
 </details>
