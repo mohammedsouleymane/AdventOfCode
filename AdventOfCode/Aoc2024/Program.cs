@@ -37,5 +37,6 @@ using Aoc2024;
 // Console.WriteLine(Day17.InitialA());
 // Console.WriteLine(Day18.ShortestPath());
 // Console.WriteLine(Day18.CutOff());
-Console.WriteLine(Day19.PossibleDesigns);
-Console.WriteLine(Day19.CountPossibilities);
+// Console.WriteLine(Day19.PossibleDesigns);
+// Console.WriteLine(Day19.CountPossibilities);
+Console.WriteLine(Day20.ShortestPath());
