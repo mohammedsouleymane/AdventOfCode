@@ -1,5 +1,3 @@
-using Utilities;
-
 namespace Aoc2025;
 
 public static class Day01
