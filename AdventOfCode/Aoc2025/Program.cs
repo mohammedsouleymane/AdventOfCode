@@ -8,5 +8,8 @@ using Aoc2025;
 // Console.WriteLine(Day02.InvalidRanges());
 // Console.WriteLine(Day02.InvalidRanges(false));
 
-Console.WriteLine(Day03.TotalOutputJoltage());
-Console.WriteLine(Day03.TotalOutputJoltage(12));
+// Console.WriteLine(Day03.TotalOutputJoltage());
+// Console.WriteLine(Day03.TotalOutputJoltage(12));
+
+Console.WriteLine(Day04.AccessibleRolls());
+Console.WriteLine(Day04.RepeatProcess());
