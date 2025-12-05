@@ -11,5 +11,8 @@ using Aoc2025;
 // Console.WriteLine(Day03.TotalOutputJoltage());
 // Console.WriteLine(Day03.TotalOutputJoltage(12));
 
-Console.WriteLine(Day04.AccessibleRolls());
-Console.WriteLine(Day04.RepeatProcess());
+// Console.WriteLine(Day04.AccessibleRolls());
+// Console.WriteLine(Day04.RepeatProcess());
+
+Console.WriteLine(Day05.Fresh());
+Console.WriteLine(Day05.ConsideredIds());
