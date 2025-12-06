@@ -14,5 +14,8 @@ using Aoc2025;
 // Console.WriteLine(Day04.AccessibleRolls());
 // Console.WriteLine(Day04.RepeatProcess());
 
-Console.WriteLine(Day05.Fresh());
-Console.WriteLine(Day05.ConsideredIds());
+// Console.WriteLine(Day05.Fresh());
+// Console.WriteLine(Day05.ConsideredIds());
+
+Console.WriteLine(Day06.Solve());
+Console.WriteLine(Day06.SolveRightToLeft());
