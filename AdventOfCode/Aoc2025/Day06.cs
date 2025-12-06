@@ -29,21 +29,21 @@ public static class Day06
         
         while (true)
         {
-            var equation = equations[0] + equations[1..].TakeWhile(c => c == ' ').ToStr();
+            var equation = equations[0] + equations[1..].TakeWhile(c => c == ' ').ToStr(); // gets sign with following spaces
             var i = equation == equations ? equation.Length + 1 : equation.Length;
             
             long solution = equation[0] == '+' ? 0 : 1;
             for (var j = 0; j < i - 1; j++)
             {
                 if (equation[0] == '+')
-                    solution += long.Parse(numbers.Select(x => x[j]).ToStr().Trim());
+                    solution += long.Parse(numbers.Select(x => x[j]).ToStr().Trim()); // concat all chars on that index(column) then trim it after add or multiply
                 else 
                     solution *= long.Parse(numbers.Select(x => x[j]).ToStr().Trim());
             }
-            sum += solution;
-            if (equation == equations) break;
-            equations = equations[i..];
-            numbers = numbers.Select(x => x[i..]).ToList();
+            sum += solution; // adds to total
+            if (equation == equations) break; // reach the end
+            equations = equations[i..]; // removes first i characters
+            numbers = numbers.Select(x => x[i..]).ToList(); // removes first I
             
         }
         
