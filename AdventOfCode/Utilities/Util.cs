@@ -50,7 +50,7 @@ public static class Util
 		return matrix;
 	}
 
-	public static T GetELementAt<T>(this T[,] matrix, (int x, int y) coordinate )
+	public static T GetElementAt<T>(this T[,] matrix, (int x, int y) coordinate )
 	{
 		return matrix[coordinate.x, coordinate.y];
 	}
