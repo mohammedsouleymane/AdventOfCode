@@ -17,5 +17,7 @@ using Aoc2025;
 // Console.WriteLine(Day05.Fresh());
 // Console.WriteLine(Day05.ConsideredIds());
 
-Console.WriteLine(Day06.Solve());
-Console.WriteLine(Day06.SolveRightToLeft());
+// Console.WriteLine(Day06.Solve());
+// Console.WriteLine(Day06.SolveRightToLeft());
+Console.WriteLine(Day07.BeamSplits());
+Console.WriteLine(Day07.Timelines((-1,-1)));

@@ -14,7 +14,7 @@ public static class Day04
                 if(Grid[i,j] == '.') continue;
                 var adjacentRollsCount = Directions
                     .Select(x => x.Add((i, j)))// add all direction to current direction
-                    .Count(x => Grid.InBounds(x) && Grid.GetELementAt(x) == '@'); // checks that the position is inbounds and element equals '@
+                    .Count(x => Grid.InBounds(x) && Grid.GetElementAt(x) == '@'); // checks that the position is inbounds and element equals '@
                 if (adjacentRollsCount < 4)
                     accessibleRolls.Add((i,j));
             }
