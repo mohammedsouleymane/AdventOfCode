@@ -27,7 +27,7 @@ public static class Day08
             count++;
             var (i,j) = pairs.Dequeue();
             
-            var possibleCircuits = circuits.Where(x => x.Intersect([i,j]).Any()).ToList();
+            var possibleCircuits = circuits.Where(x => x.Overlaps([i,j])).ToList();// checks for all sets that contains i or j or both
             if (possibleCircuits.Count == 2) // when count is 2 this means that the pairs are in 2 different circuits
             {
                 circuits.RemoveAll(c => possibleCircuits.Contains(c)); // we remove the 2 circuits
