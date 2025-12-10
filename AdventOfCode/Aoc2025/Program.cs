@@ -21,5 +21,13 @@ using Aoc2025;
 // Console.WriteLine(Day06.SolveRightToLeft());
 // Console.WriteLine(Day07.BeamSplits());
 // Console.WriteLine(Day07.Timelines((-1,-1)));
-Console.WriteLine(Day08.Circuits());
-Console.WriteLine(Day08.Circuits(true));
+// Console.WriteLine(Day08.Circuits());
+// Console.WriteLine(Day08.Circuits(true));
+// Console.WriteLine(Day09.BiggestRectangle());
+// Console.WriteLine(Day09.LargestAreaOnlyRG());
+
+Console.WriteLine(Day10.MinimalPresses());
+Console.WriteLine(Day10.MinimalPresses(false));
+
+
+

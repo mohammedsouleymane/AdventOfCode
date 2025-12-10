@@ -2,7 +2,7 @@ namespace Aoc2025;
 
 public static class Day08
 {
-    private static readonly string[] JunctionBoxes = Util.ReadFile("/day08/input").ToArray();
+    private static readonly string[] JunctionBoxes = Util.ReadFile("/day08/test").ToArray();
 
     public static long Circuits(bool two = false)
     {
@@ -43,7 +43,7 @@ public static class Day08
             
             if(two && circuits.First().Count == JunctionBoxes.Length)
                 return long.Parse(JunctionBoxes[i].Split(",")[0]) * long.Parse(JunctionBoxes[j].Split(",")[0]);
-            if (!two && count == 1000) // change to 10 for test case
+            if (!two && count == 10) // change to 10 for test case
                 return circuits.OrderByDescending(x => x.Count).Take(3).Aggregate(1, (acc, val) => acc * val.Count);
         }
 
