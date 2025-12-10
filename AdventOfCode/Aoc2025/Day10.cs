@@ -42,7 +42,7 @@ public static class Day10
             .ToList(); // creating all variables
 
         var opt = ctx.MkOptimize(); // creating an optimizer
-        for (var i = 0; i < joltages.Length; i++)
+        for (var i = 0; i < goalJoltages.Length; i++)
         {
             List<IntExpr> vars = []; 
             for (var j = 0; j < btns.Count; j++)
@@ -50,7 +50,6 @@ public static class Day10
                 if(btns[j].Contains(i)) // check if index is in button basically all buttons that have the index
                     vars.Add(variables[j]);// of the current joltage
             }
-            if(!vars.Any()) continue; 
             var sum = ctx.MkAdd(vars); // sum of all variables
             var constraint = ctx.MkEq(sum, ctx.MkInt(goalJoltages[i])); // check if they equal the goal
             opt.Add(constraint);//add as a constraint
