@@ -37,7 +37,7 @@ public static class Day11
         //another solution is to keep the same structure as part 1 but cache device and i (counter for seeing fft and dac) Dict<(string,int),long> 
         //i++ when device is fft or dac and only return 1 when i == 2
         
-        //used solution: divide into sub problems it looks like fft always comes before dac
+        //used solution: divide into sub problems it looks like fft always comes before dac (in my case)
         return CountFresh("svr", devices, "fft") * // we count the paths from svr to fft
                CountFresh("fft", devices, "dac") * // then from fft to dac
                CountFresh("dac", devices); // dac to out by multiplying them we get the count
