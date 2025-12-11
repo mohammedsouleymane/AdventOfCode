@@ -26,8 +26,11 @@ using Aoc2025;
 // Console.WriteLine(Day09.BiggestRectangle());
 // Console.WriteLine(Day09.LargestAreaOnlyRG());
 
-Console.WriteLine(Day10.MinimalPresses());
-Console.WriteLine(Day10.MinimalPresses(false));
+// Console.WriteLine(Day10.MinimalPresses());
+// Console.WriteLine(Day10.MinimalPresses(false));
+
+Console.WriteLine(Day11.Paths());
+Console.WriteLine(Day11.Paths(false));
 
 
 
